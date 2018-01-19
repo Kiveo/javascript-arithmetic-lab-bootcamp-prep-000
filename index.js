@@ -18,3 +18,9 @@ function inc(n) {
 function dec(n) {
   return --n;  //included the calc as part of the return
 }
+function makeInt(n) {
+  parseInt(n);
+}
+function makeInt(n) {
+  parseInt(n, 10);
+}
