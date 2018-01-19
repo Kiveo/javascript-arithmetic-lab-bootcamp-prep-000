@@ -13,8 +13,8 @@ function divide(a, b) {
 
 function inc(n) {
   n++;
-  return n;
+  return n;    //separated calculation from return
 }
 function dec(n) {
-  return --n;
+  return --n;  //included the calc as part of the return
 }
